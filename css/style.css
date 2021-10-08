@@ -1,7 +1,13 @@
-.box {
+.box, .green-box {
   background-color: blue;
   padding: 20px;
   text-align: center;
   color: white;
   border: 1px solid white;
+}
+
+.green-box {
+  background-color: green;
+  border: 1px solid blue;
+  padding: 5px;
 }
